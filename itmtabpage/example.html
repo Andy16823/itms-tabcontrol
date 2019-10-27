@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ITM Tab Widget</title>
+<link href="css/style-metro.css" rel="stylesheet" type="text/css" />
+<link href="css/style-metro-green.css" rel="stylesheet" type="text/css" />
+<link href="css/style-metro-vertical.css" rel="stylesheet" type="text/css" />
+<link href="css/example-page.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<div class="content">
+
+		<!-- Create the tab area -->
+		<div class="tab-area metro" id="tab-area-1">
+			<div class="tab-header" id="tab-header">
+				<ul>
+					<li name="tab-page-head" tab-page="tab-page-1">My Tab Page 1</li>
+					<li name="tab-page-head" tab-page="tab-page-2">My Tab Page 2</li>
+					<li name="tab-page-head" tab-page="tab-page-3">My Tab Page 3</li>
+					<li name="tab-page-head" tab-page="tab-page-4">My Tab Page 4</li>
+				</ul>
+			</div>
+			<div class="tab-pages" id="tab-pages" count="4">
+				<div class="tab-page" id="tab-page-1" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 1</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-2" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 2</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-3" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 3</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-4" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 4</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<h1>Ein Weiteres Tab Control</h1>
+		<!-- Create the tab area -->
+		<div class="tab-area metro-green" id="tab-area-2">
+			<div class="tab-header" id="tab-header">
+				<ul>
+					<li name="tab-page-head" tab-page="tab-page-1">My Tab Page 1</li>
+					<li name="tab-page-head" tab-page="tab-page-2">My Tab Page 2</li>
+					<li name="tab-page-head" tab-page="tab-page-3">My Tab Page 3</li>
+					<li name="tab-page-head" tab-page="tab-page-4">My Tab Page 4</li>
+				</ul>
+			</div>
+			<div class="tab-pages" id="tab-pages" count="4">
+				<div class="tab-page" id="tab-page-1" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 1</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-2" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 2</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-3" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 3</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-4" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 4</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h1>Vertikale Darstellung</h1>
+		
+		<!-- Create the tab area -->
+		<div class="tab-area metro-vertical" id="tab-area-3">
+			<div class="tab-header" id="tab-header">
+				<ul>
+					<li name="tab-page-head" tab-page="tab-page-1">My Tab Page 1</li>
+					<li name="tab-page-head" tab-page="tab-page-2">My Tab Page 2</li>
+					<li name="tab-page-head" tab-page="tab-page-3">My Tab Page 3</li>
+					<li name="tab-page-head" tab-page="tab-page-4">My Tab Page 4</li>
+				</ul>
+			</div>
+			<div class="tab-pages" id="tab-pages" count="4">
+				<div class="tab-page" id="tab-page-1" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 1</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-2" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 2</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-3" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 3</h1>
+					</div>
+				</div>
+				<div class="tab-page" id="tab-page-4" name="tab-page">
+					<div style="padding: 15px">
+						<h1>Hello im tab page 4</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Initial your tabpage and your content -->
+	<script type="text/javascript" src="js/itm-tab-control.js"></script>
+	<script type="text/javascript">
+		initialTabPages("tab-area-1");
+		activateTabByID("tab-area-1", "tab-page-1");
+		activateTabByID("tab-area-2", "tab-page-1");
+	</script>
+</body>
+</html>

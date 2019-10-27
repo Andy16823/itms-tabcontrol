@@ -1,0 +1,42 @@
+.tab-area.metro {
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.tab-area.metro ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.tab-area.metro li {
+	float: left;
+	padding: 20px;
+	background-color: #E6E6E6;
+	width: 100px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.tab-area.metro li:hover {
+	cursor: pointer;
+	background-color: #0093DD;
+	color: white;
+}
+
+.tab-area.metro li[selected] {
+	cursor: pointer;
+	background-color: #0093DD;
+	color: white;
+}
+
+.tab-area.metro .tab-pages {
+	clear: both;
+	border-top: solid 3px #0093DD;
+}
+
+.tab-area.metro .tab-page {
+	background-color: #E6E6E6;
+	width: 100%;
+	min-height: 300px;
+}
